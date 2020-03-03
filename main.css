@@ -1,0 +1,42 @@
+:root {
+    box-sizing: border-box; 
+}
+
+*, 
+::before, 
+::after {
+    box-sizing: inherit; 
+
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: Helvetica, sans-serif; 
+}
+
+.problem {
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    left: 0; 
+    padding: 2rem 0 2rem 1rem; 
+    
+    font-size: 4rem; 
+    color: #fff; 
+    background-color: #000; 
+    font-weight: 700; 
+}
+
+.choice-container {
+    margin: 10rem 0 2rem; 
+}
+
+.option {
+    height: 4rem; 
+    width: 100%; 
+
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
